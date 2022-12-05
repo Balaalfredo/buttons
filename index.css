@@ -1,0 +1,167 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body #openn {
+  background-color: #4cd56a;
+  font-size: 1.7em;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px black;
+}
+body #close {
+  background-color: red;
+  font-size: 1.7em;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px black;
+}
+body #main {
+  transition: 1.2s;
+  width: 30%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: scale(0);
+  flex-direction: column;
+}
+body #main .box {
+  width: 90%;
+  height: 15%;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #E9F7EE;
+  transition: 1.5s;
+}
+body #main .box:first-child {
+  transition: 2s;
+}
+body #main .box:first-child .round {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  background-color: #4cd56a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #main .box:first-child .round span {
+  color: white;
+  font-size: 1.5em;
+}
+body #main .box:first-child p {
+  font-size: 1.3em;
+}
+body #main .box:first-child span {
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.2s;
+}
+body #main .box:first-child span:hover {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+}
+body #main .box:nth-child(2) .round {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  background-color: #1d7ce8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #main .box:nth-child(2) .round span {
+  color: white;
+  font-size: 1.5em;
+}
+body #main .box:nth-child(2) p {
+  font-size: 1.3em;
+}
+body #main .box:nth-child(2) span {
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.2s;
+}
+body #main .box:nth-child(2) span:hover {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+}
+body #main .box:nth-child(3) .round {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  background-color: #f8a311;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #main .box:nth-child(3) .round span {
+  color: white;
+  font-size: 1.5em;
+}
+body #main .box:nth-child(3) p {
+  font-size: 1.3em;
+}
+body #main .box:nth-child(3) span {
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.2s;
+}
+body #main .box:nth-child(3) span:hover {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+}
+body #main .box:last-child .round {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #main .box:last-child .round span {
+  color: white;
+  font-size: 1.5em;
+}
+body #main .box:last-child p {
+  font-size: 1.3em;
+}
+body #main .box:last-child span {
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.2s;
+}
+body #main .box:last-child span:hover {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+}/*# sourceMappingURL=index.css.map */
